@@ -1,0 +1,4 @@
+# ninja log v5
+0	6171	1750518780791660635	/data_lg/keru/project/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-38/data_lg/keru/project/DINO/models/dino/ops/src/cpu/ms_deform_attn_cpu.o	2370bcf53445096d
+0	19660	1750518794279606289	/data_lg/keru/project/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-38/data_lg/keru/project/DINO/models/dino/ops/src/vision.o	ddb8c2f054b732a9
+0	25057	1750518799663584605	/data_lg/keru/project/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-38/data_lg/keru/project/DINO/models/dino/ops/src/cuda/ms_deform_attn_cuda.o	43968288aecf7335

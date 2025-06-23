@@ -1,0 +1,3 @@
+checkpoint0033_4scale.pth
+
+请在DINO官方途径下载，本次任务是四分类任务，因此选择上述checkpoint
