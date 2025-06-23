@@ -1,7 +1,0 @@
-/data_lg/keru/project/ACNE04-Object-Detection-Cross-Domain-Classification/Faster-RCNN-Pytorch/faster-rcnn-pytorch-master/model_data/voc_weights_vgg.pth
-/data_lg/keru/project/ACNE04-Object-Detection-Cross-Domain-Classification/Faster-RCNN-Pytorch/faster-rcnn-pytorch-master/model_data/voc_weights_resnet.pth
-/data_lg/keru/project/ACNE04-Object-Detection-Cross-Domain-Classification/Faster-RCNN-Pytorch/faster-rcnn-pytorch-master/model_data/vgg16-397923af.pth
-/data_lg/keru/project/ACNE04-Object-Detection-Cross-Domain-Classification/Faster-RCNN-Pytorch/faster-rcnn-pytorch-master/model_data/resnet50-19c8e357.pth
-
-
-请前往官方仓库下载上述四个checkpoint，并放至在本model——data文件夹下
