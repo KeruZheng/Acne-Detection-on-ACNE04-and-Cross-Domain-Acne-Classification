@@ -1,0 +1,42 @@
+<annotation>
+	<folder></folder>
+	<filename>levle0_117_jpg.rf.f6760ec80ebe92c479491a67245a4f55.jpg</filename>
+	<path>levle0_117_jpg.rf.f6760ec80ebe92c479491a67245a4f55.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>whitehead and blackhead</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>132</xmin>
+			<xmax>153</xmax>
+			<ymin>474</ymin>
+			<ymax>503</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>whitehead and blackhead</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>458</xmin>
+			<xmax>482</xmax>
+			<ymin>439</ymin>
+			<ymax>463</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

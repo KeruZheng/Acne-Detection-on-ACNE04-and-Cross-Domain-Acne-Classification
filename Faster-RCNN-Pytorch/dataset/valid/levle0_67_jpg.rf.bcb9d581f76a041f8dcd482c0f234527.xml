@@ -1,0 +1,68 @@
+<annotation>
+	<folder></folder>
+	<filename>levle0_67_jpg.rf.bcb9d581f76a041f8dcd482c0f234527.jpg</filename>
+	<path>levle0_67_jpg.rf.bcb9d581f76a041f8dcd482c0f234527.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>whitehead and blackhead</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>352</xmin>
+			<xmax>385</xmax>
+			<ymin>272</ymin>
+			<ymax>323</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>whitehead and blackhead</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>403</xmin>
+			<xmax>430</xmax>
+			<ymin>481</ymin>
+			<ymax>541</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>whitehead and blackhead</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>490</xmin>
+			<xmax>510</xmax>
+			<ymin>517</ymin>
+			<ymax>559</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>whitehead and blackhead</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>522</xmin>
+			<xmax>545</xmax>
+			<ymin>535</ymin>
+			<ymax>579</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

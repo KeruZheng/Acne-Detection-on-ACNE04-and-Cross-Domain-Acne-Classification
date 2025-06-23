@@ -1,0 +1,16 @@
+<annotation>
+	<folder></folder>
+	<filename>levle1_368_jpg.rf.a0f89e897717fbd69bff3a9240f7d0c1.jpg</filename>
+	<path>levle1_368_jpg.rf.a0f89e897717fbd69bff3a9240f7d0c1.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<metadata>
+	</metadata>
+</annotation>
