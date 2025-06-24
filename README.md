@@ -1,5 +1,5 @@
 
-# Acne Detection on ACNE04 + Cross-Domain Acne Classification
+# Acne Detection on ACNE04 + Cross-Domain Acne Classification + DINO training/evaluating scripts
 
 ## Acne Detection on ACNE04
 Dataset Introduction
