@@ -105,3 +105,83 @@ In contrast, v3 successfully addresses both data imbalance and weak feature lear
 
 
 This README provides an overview of our research efforts in acne detection and cross-domain classification. For more in-depth information, please refer to the respective GitHub repositories and the associated documentatio
+
+
+## Coded prepare
+```
+git clone https://github.com/IDEA-Research/DINO.git
+cd DINO
+```
+
+## Environment Setup
+```
+conda create -n dino python=3.7 -y    # 新建环境
+conda activate dino
+conda install -c pytorch pytorch torchvision
+cd models/dino/ops
+python setup.py build install
+# unit test (should see all checking is True)
+python test.py
+cd ../../..
+```
+
+## Training
+1. Modify the Configuration File
+In /config/DINO/DINO_4scale.py:
+
+Set num_classes to match the number of categories in your dataset.
+
+(The default is 91 for COCO; for example, if your dataset has 5 classes from the XML annotations, set num_classes = 5)
+
+Adjust dn_labelbook_size to satisfy the condition:
+```
+dn_labelbook_size >= num_classes + 1
+```
+we set the train.py as ```DINO/DINO/dino_acne_config.py``` in this project
+
+2. Download checkpoint from the official version:
+  put your checkpoint file in under the path of  ```DINO/checkpoints/. ```
+
+3. Pepare for the data set, make sure your dataset structure like the following mode:
+```
+   datasets/
+    └── acne/
+        ├── train/
+        ├── val/
+        └── annotations/
+            ├── instances_train.json
+            └── instances_val.json
+```
+
+4. Training
+```  
+python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py \
+  -c DINO/DINO/dino_acne_config.py \
+  --output_dir outputs/dino_acne \
+  --dataset_file acne \
+  --coco_path /path/to/datasets/acne \
+  --epochs 150 \
+  --lr_drop 100
+
+```
+It will out put the result in the end of training:
+![251a909d574a0774ad7be8b46c42e0b](https://github.com/user-attachments/assets/4b366c60-61a8-488e-80b7-1c2ab83e8f14)
+
+5. Evaluation
+```
+python main.py \
+  -c DINO/DINO/dino_acne_config.py \
+  --eval \
+  --resume outputs/dino_acne/checkpoint.pth \
+  --dataset_file acne \
+  --coco_path /path/to/datasets/acne
+```
+6. visualize your result
+Comparing to the official version, I add a ```DINO/visualize_detections.py``` to help visualize our detection,the result visualization consist of detected bounding box and the detected label on the original figure. The result will be store in ``` DINO/detection_visualizations ``` .
+Here are our result visualization sample:
+![image](https://github.com/user-attachments/assets/d5fe3dbd-fd68-4f73-83c7-2dd687de0fc4)
+![image](https://github.com/user-attachments/assets/776f688e-70a0-4903-a939-ae8ec49dcab0)
+
+You can also add the ground truth bounding box on the figure to compare with the detected result.
+
+
