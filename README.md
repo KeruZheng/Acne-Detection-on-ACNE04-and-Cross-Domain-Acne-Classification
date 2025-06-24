@@ -125,7 +125,7 @@ python test.py
 cd ../../..
 ```
 
-## Training
+## Training + Evaluation + Visualization
 1. Modify the Configuration File
 In /config/DINO/DINO_4scale.py:
 
@@ -153,7 +153,7 @@ we set the train.py as ```DINO/DINO/dino_acne_config.py``` in this project
             └── instances_val.json
 ```
 
-4. Training
+4. Training command
 ```  
 python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py \
   -c DINO/DINO/dino_acne_config.py \
