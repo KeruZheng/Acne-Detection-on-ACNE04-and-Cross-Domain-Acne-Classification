@@ -11,13 +11,16 @@ We conducted acne detection experiments using three state-of-the-art models:
 YOLOv5: A highly efficient object detection framework known for its speed and accuracy.
 GitHub Repository: https://github.com/KeruZheng/YOLO-Acne-Detection-on-ACNE04-and-Cross-Domain-Acne-Classification_3
 Contents: The repository includes detailed parameter settings for training, the full training code, and evaluation scripts. It allows users to reproduce our experimental results or fine-tune the model for their own applications.
+
 Faster R-CNN: A classic two-stage object detection model that excels in precise object localization.
 GitHub Repository: https://github.com/KeruZheng/Faster-RCNN-Acne-Detection-on-ACNE04-and-Cross-Domain-Acne-Classification_2
 Contents: Users can find the customized parameter configurations, the training codebase optimized for acne detection, and instructions for running evaluations on the ACNE04 dataset.
+
 DINO: A cutting-edge model leveraging self-supervised learning techniques for object detection.
-GitHub Repository: https://github.com/KeruZheng/DINO-Acne-Detection-on-ACNE04-and-Cross-Domain-Acne-Classification
+GitHub Repository: https://github.com/KeruZheng/DINO-Acne-Detection-on-ACNE04-and-Cross-Domain-Acne-Classification_1
 Contents: The repository houses the model's training parameters, the implementation code, and guidelines for conducting detection experiments on acne lesions.
 
+Cross-Domain-Acne-Classification: we adapt 3 model structure and train in 2 training data set. github repository:https://github.com/KeruZheng/Acne-Detection-on-ACNE04-and-Cross-Domain-Acne-Classification_4-cross__domain_classification_4
 Each repository provides a comprehensive set of resources, enabling researchers and developers to understand, replicate, and extend our work on acne detection using different model architectures.
 
 
