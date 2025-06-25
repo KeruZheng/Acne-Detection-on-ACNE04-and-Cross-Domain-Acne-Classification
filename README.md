@@ -109,6 +109,7 @@ In contrast, v3 successfully addresses both data imbalance and weak feature lear
 
 This README provides an overview of our research efforts in acne detection and cross-domain classification. For more in-depth information, please refer to the respective GitHub repositories and the associated documentatio
 
+# Time for DINO !!!!!
 
 ## Coded prepare
 ```
