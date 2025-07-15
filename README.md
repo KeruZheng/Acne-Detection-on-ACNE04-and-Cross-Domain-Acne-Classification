@@ -1,6 +1,9 @@
 
 # Acne Detection on ACNE04 + Cross-Domain Acne Classification + DINO training/evaluating scripts
 
+## News！！！！
+I have uploaded the presentation PPT to this GitHub repository, where you can find detailed result comparisons and analyses.
+
 ## Acne Detection on ACNE04
 Dataset Introduction
 ACNE04 is a publicly available dataset that focuses on acne vulgaris detection. It consists of 1450 high-resolution facial images, each accompanied by precise bounding box annotations for acne lesions. This dataset serves as an essential resource for developing and evaluating acne detection algorithms.
